@@ -9,6 +9,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.flexible{
+    display: flex;
+}
+
 .second-part{
     display: flex;
     background-image: url(../images/dream-bg.png);
@@ -30,8 +34,14 @@ body{
 }
 
 .half-width3{
-    width:50%;
-    margin-top: 10%;
+    width:40%;
+    margin-left: 6%;
+    margin-top: 10px;
+    text-align: justify;
+    box-shadow: 15px 15px 45px gray;
+    border-radius: 15px;
+    padding: 30px 20px 30px 20px;
+    margin-right: 6%;
 }
 
 .half-width img{
@@ -46,7 +56,21 @@ h1{
     font-size: 55px;
 }
 
-.third-section-h1{
+.third-part{
+    margin-top: 150px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 200px;
+}
+
+.third-part-h1{
+    margin-top: 15px;
+    font-size: 38px;
+}
+
+.third-part-h1-2{
+    margin-top: 15px;
     font-size: 38px;
 }
 
@@ -62,4 +86,22 @@ h1{
     color: white;
     padding: 10px 40px;
     font-weight: 700;
+}
+
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
 }
